@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+/* Header Area  */
+
+.header-area {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Content Area */
+.content-area {
+    padding: 50px;
+}
+
+/* personal information area */
+.personal-info {
+    padding: 20px;
+}
+.personal-info label {
+}
+#fname, #lname, #age, #bdate, #add {
+    align: right;
+    margin-top: 30px;
+    padding: 5px;
+    width: 150px;
+
+}
+
+/* main-survey area */
+.main-survey {
+    padding: 20px;
+}
+
+/* footer area */
+.footer-area {
+    text-align: center;
+}

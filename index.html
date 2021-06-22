@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+
+        <!-- Header Area -->
+        <header class="header-area">
+            <h1>SURVEY FORM</h1>
+            <p>Survey about your things!</p>
+        </header>
+
+        <!-- Content Area -->
+        <section class="content-area">
+            <form id="survey-form">
+
+                <!-- personal information -->
+                <!-- name -->
+                <div class="personal-info">
+                    <label for="fname">Your First Name: </label>
+                    <input type="text" id="fname"> <br>
+                    <label for="lname">Your Last Name: </label>
+                    <input type="text" id="lname"> <br>
+
+                    <!-- age -->
+                    <label for="age">Your age: </label>
+                    <input type="number" id="age"> <br>
+
+                    <!-- birth date -->
+                    <label for="bdate">Your Birth Date: </label>
+                    <input type="date" id="bdate"> <br>
+
+                    <!-- address -->
+                    <label for="add">Your Address: </label>
+                    <input type="text" id="add"> <br>
+                </div>
+
+                <!-- main survey -->
+                <!-- q1- shampoo -->
+                <div class="main-survey">
+                    <h3>What is your favorite hair shampoo?</h3>
+                    <input type="radio" id="opt1" name="shampoo" value="h&s">
+                    <label for="opt1">Head&Shoulder</label>
+                    <input type="radio" id="opt2" name="shampoo" value="dove">
+                    <label for="opt2">Dove</label>
+                    <input type="radio" id="opt3" name="shampoo" value="cm">
+                    <label for="opt3">Clear Men</label>
+
+                    <!-- q2 - skin care -->
+                    <h3>What is your favorite skin care product?</h3>
+                    <input type="radio" id="p" name="skin" value="ponds">
+                    <label for="p">Ponds</label>
+                    <input type="radio" id="h" name="skin" value="himalaya">
+                    <label for="h">Himalaya</label>
+                    <input type="radio" id="o" name="skin" value="olay">
+                    <label for="o">Olay</label>
+
+                    <!-- q3 - glass -->
+                    <h3>Which one your favorite goggles brand?</h3>
+                    <input type="radio" id="rb" name="goggles" value="ray-ban">
+                    <label for="rb">Ray Ban</label>
+                    <input type="radio" id="oak" name="goggles" value="oakley">
+                    <label for="oak">Oakley</label>
+                    <input type="radio" id="tf" name="goggles" value="tom-ford">
+                    <label for="tf">Tom Ford</label>
+
+                    <!-- q4 - shoe -->
+                    <h3>Which shoe brand you love the most?</h3>
+                    <input type="radio" id="s1" name="shoe" value="nike">
+                    <label for="s1">Nike</label>
+                    <input type="radio" id="s2" name="shoe" value="adidas">
+                    <label for="s2">Adidas</label>
+                    <input type="radio" id="s3" name="shoe" value="puma">
+                    <label for="s3">Puma</label>
+
+                    <!-- q5 - clothes -->
+                    <h3>Which one is your favorite?</h3>
+                    <input type="radio" id="c1" name="clothes" value="lv">
+                    <label for="c1">Louis Vuitton</label>
+                    <input type="radio" id="c2" name="clothes" value="gucci">
+                    <label for="c2">Gucci</label>
+                    <input type="radio" id="c3" name="clothes" value="prada"> 
+                    <label for="c3">Prada</label>  
+                    
+                    <!-- q6 - foods -->
+                    <h3>Which one is your most favorite item?</h3>
+                    <input type="radio" id="f1" name="foods" value="pasta">
+                    <label for="f1">Pasta</label>
+                    <input type="radio" id="f2" name="foods" value="pizza">
+                    <label for="f2">Pizza</label>
+                    <input type="radio" id="f3" name="foods" value="faluda">
+                    <label for="f3">Faluda</label>
+
+                    <!-- q7 - country -->
+                    <h3>Where you wanna go in your next vacation?</h3>
+                    <input type="radio" id="v1" name="country" value="greece">
+                    <label for="v1">Greece</label>
+                    <input type="radio" id="v2" name="country" value="sz">
+                    <label for="v2">Switzerland</label>
+                    <input type="radio" id="v3" name="country" value="male">
+                    <label for="v3">Maldives</label>
+
+                    <!-- q8 - journey -->
+                    <h3>By which you want to travel?</h3>
+                    <input type="radio" id="t1" name="travel" value="plane">
+                    <label for="t1">Plane</label>
+                    <input type="radio" id="t2" name="travel" value="bus">
+                    <label for="t2">Bus</label>
+                    <input type="radio" id="t3" name="travel" value="ship">
+                    <label for="t3">Ship</label>
+                </div>
+            </form> 
+        </section>
+
+        <!-- Footer Area -->
+        <footer class="footer-area">
+            <p>All rights reserved</p>
+            <p>Survey by SakibNaz - 2021</p>
+        </footer>
+    </div>
+</body>
+</html>
